@@ -990,41 +990,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "I[2]" (rect 98 336 116 349)(font "Intel Clear" ))
-	(pt 120 352)
-	(pt 88 352)
-)
-(connector
-	(text "NI2" (rect 178 336 195 349)(font "Intel Clear" ))
-	(pt 168 352)
-	(pt 200 352)
-)
-(connector
-	(text "I[3]" (rect 98 392 116 405)(font "Intel Clear" ))
-	(pt 120 408)
-	(pt 88 408)
-)
-(connector
-	(text "NI3" (rect 178 392 195 405)(font "Intel Clear" ))
-	(pt 168 408)
-	(pt 200 408)
-)
-(connector
-	(text "NI2" (rect 514 120 531 133)(font "Intel Clear" ))
-	(pt 528 136)
-	(pt 504 136)
-)
-(connector
-	(text "I[2]" (rect 514 184 532 197)(font "Intel Clear" ))
-	(pt 528 200)
-	(pt 504 200)
-)
-(connector
-	(text "NI2" (rect 514 248 531 261)(font "Intel Clear" ))
-	(pt 504 264)
-	(pt 528 264)
-)
-(connector
 	(text "loadA" (rect 602 112 632 125)(font "Intel Clear" ))
 	(pt 592 128)
 	(pt 624 128)
@@ -1236,19 +1201,54 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "NI3" (rect 514 104 531 117)(font "Intel Clear" ))
+	(text "I[5]" (rect 98 336 116 349)(font "Intel Clear" ))
+	(pt 120 352)
+	(pt 88 352)
+)
+(connector
+	(text "I[6]" (rect 98 392 116 405)(font "Intel Clear" ))
+	(pt 120 408)
+	(pt 88 408)
+)
+(connector
+	(text "NI5" (rect 178 336 195 349)(font "Intel Clear" ))
+	(pt 168 352)
+	(pt 200 352)
+)
+(connector
+	(text "NI6" (rect 178 392 196 405)(font "Intel Clear" ))
+	(pt 168 408)
+	(pt 200 408)
+)
+(connector
+	(text "NI6" (rect 514 104 532 117)(font "Intel Clear" ))
 	(pt 528 120)
 	(pt 504 120)
 )
 (connector
-	(text "NI3" (rect 514 168 531 181)(font "Intel Clear" ))
+	(text "NI5" (rect 514 120 531 133)(font "Intel Clear" ))
+	(pt 528 136)
+	(pt 504 136)
+)
+(connector
+	(text "NI6" (rect 514 168 532 181)(font "Intel Clear" ))
 	(pt 528 184)
 	(pt 504 184)
 )
 (connector
-	(text "I[3]" (rect 514 232 532 245)(font "Intel Clear" ))
+	(text "I[5]" (rect 514 184 532 197)(font "Intel Clear" ))
+	(pt 528 200)
+	(pt 504 200)
+)
+(connector
+	(text "I[6]" (rect 514 232 532 245)(font "Intel Clear" ))
 	(pt 528 248)
 	(pt 504 248)
+)
+(connector
+	(text "NI5" (rect 514 248 531 261)(font "Intel Clear" ))
+	(pt 504 264)
+	(pt 528 264)
 )
 (junction (pt 32 424))
 (junction (pt 32 448))
